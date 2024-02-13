@@ -1,0 +1,16 @@
+.orange-box {
+    height: 100px;
+    width: 100px;
+    background-color: orange;
+    border: 1px solid black;
+    display: none;
+}
+
+.visually-hidden {
+    position: absolute;
+    left: -100vw;
+}
+
+#toggle:checked + .orange-box {
+    display: block;
+}
